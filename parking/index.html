@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>parking</title>
+    <link rel="stylesheet" href="static/css/reset.css">
+    <link rel="stylesheet" href="static/css/bootstrap.min.css">
+  </head>
+  <body>
+    <div id="app"></div>
+    <!-- built files will be auto injected -->
+  </body>
+  <script src='static/js/jquery-1.11.1.min.js'></script>
+  <script src='static/js/cityDatas.js'></script>
+  <script>
+    (function(window, $) {
+        $.fn.serializeJson = function() {
+            var serializeObj = {};
+            var array = this.serializeArray();
+            var str = this.serialize();
+            $(array).each(
+                function() {
+                    if (serializeObj[this.name]) {
+                        if ($.isArray(serializeObj[this.name])) {
+                            serializeObj[this.name].push(this.value);
+                        } else {
+                            serializeObj[this.name] = [
+                                serializeObj[this.name], this.value ];
+                        }
+                    } else {
+                        serializeObj[this.name] = this.value;
+                    }
+                });
+            return serializeObj;
+        };
+    })(window, jQuery);
+   
+  </script>
+</html>

@@ -1,0 +1,117 @@
+@charset "utf-8";
+body{font-family: "Helvetica Neue", "Luxi Sans", "DejaVu Sans", Tahoma, "Hiragino Sans GB", STHeiti, "Microsoft YaHei";}
+body,h1,h2,h3,h4,h5,h6,hr,p,blockquote,dl,dt,dd,ul,ol,li,pre,form,fieldset,legend,button,input,textarea,th,td{margin:0;padding:0}
+html{color:#000;overflow-y:scroll;overflow:-moz-scrollbars-vertical}
+body,button,input,select,textarea{font-size:12px;font-family:arial,'Hiragino Sans GB','Microsoft Yahei','微软雅黑','宋体',\5b8b\4f53,Tahoma,Arial,Helvetica,STHeiti}
+h1,h2,h3,h4,h5,h6{font-size:100%}
+em{font-style:normal}
+small{font-size:12px}
+ul,ol{list-style:none}
+a{text-decoration:none}
+a:hover{text-decoration:underline}
+legend{color:#000}
+fieldset,img{border:0}
+button,input,select,textarea{font-size:100%}
+table{border-collapse:collapse;border-spacing:0}
+img{-ms-interpolation-mode:bicubic}
+textarea{resize:vertical}
+.left{float:left}
+.right{float:right}
+.overflow{overflow:hidden}
+.hide{display:none}
+.block{display:block}
+.inline{display:inline}
+.error{color:#F00;font-size:12px}
+label,button{cursor:pointer}
+.clearfix:after{content:'\20';display:block;height:0;clear:both}
+.clearfix{zoom:1}.clear{clear:both;height:0;line-height:0;font-size:0;visibility:hidden;overflow:hidden}
+.wordwrap{word-break:break-all;word-wrap:break-word}
+pre.wordwrap{white-space:pre-wrap}
+body{text-align:center}
+body,form{position:relative}
+td{text-align:left}
+img{border:0}
+/* 登陆页样式 */
+  #app #user label,#app #pwd label,#app #code label{
+    color:#fff!important;
+  }
+  .el-breadcrumb {
+    background: #f5f5f5;
+    height: 40px;
+    vertical-align: mi;
+    line-height: 40px!important;
+    padding-left: 15px;
+  }
+  .outerWrap{
+    background: #eceff3;
+    height: 800px;
+    /* overflow-y: scroll; */
+    overflow: auto;
+  }
+  .panel-default {
+    border-color: #ddd;
+}
+.panel {
+  margin-bottom: 20px;
+  background-color: #fff;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  -webkit-box-shadow: 0 1px 1px rgba(0,0,0,.05);
+  box-shadow: 0 1px 1px rgba(0,0,0,.05);
+  text-align: left;
+  font-size:14px;
+  width: 98%;
+  margin-left: 1%;
+  margin-top: 1%;
+}
+.panel-default>.panel-heading {
+  color: #333;
+  background-color: #f5f5f5;
+  border-color: #ddd;
+}
+.panel-heading {
+  padding: 10px 15px;
+  border-bottom: 1px solid transparent;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+}
+.panel-body {
+  padding: 15px;
+}
+.form-inline {
+  position: relative;
+  margin-bottom: 10px;
+}
+.form-inline .control-label {
+  margin-bottom: 0;
+  vertical-align: middle;
+  width: 90px;
+  font-weight: 700;
+  display: inline-block;
+ 
+}
+.parkingManagement .el-dialog .el-dialog__body{
+  height: 560px!important;
+  overflow: auto;
+}
+.el-submenu__title i {
+  color: #fff!important;
+}
+.el-select-dropdown__list{
+  text-align: left;
+}
+.el-table{
+  color:#000!important;
+}
+.el-upload__input{
+  display: none!important;
+}
+.form-control{
+  height: 40px!important;
+}
+.myselect{
+  width:217px;height:40px;border:1px solid #ccc;border-radius:3px;
+}
+.red{
+  color:red;
+}
