@@ -4,7 +4,7 @@
       <el-breadcrumb-item :to="{ path: '/index-parking' }">首页</el-breadcrumb-item>
       <el-breadcrumb-item :to="{ path: '/appuser-management' }">App用户管理</el-breadcrumb-item>
       <el-breadcrumb-item>App用户详情</el-breadcrumb-item>
-      <!-- <el-breadcrumb-item>活动详情</el-breadcrumb-item>-->
+      <!-- <el-breadcrumb-item>活动详情xx</el-breadcrumb-item>-->
     </el-breadcrumb>
     <div>
       <div>
