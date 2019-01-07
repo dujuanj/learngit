@@ -1,9 +1,9 @@
 this is change
-<<<<<<< HEAD
+
 this is 2 changes  add 3 changes
-=======
+
 this is 2 changes  new feature1 changes
->>>>>>> feature1
+
 
 
 change 4 new
