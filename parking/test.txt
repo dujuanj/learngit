@@ -8,4 +8,4 @@ this is 2 changes  new feature1 changes
 
 change 4 new
 
-dev changes
+master change dev bug
