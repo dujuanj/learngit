@@ -1,2 +1,2 @@
-feature
+feature  feature2add
 
