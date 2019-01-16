@@ -3,6 +3,6 @@ dev
 
 clone dev add bengdi dev
 
-另一小伙伴改的dev
+另一小伙伴改的dev ,other 小伙伴继续改的
 
 
